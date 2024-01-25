@@ -7,3 +7,11 @@ def expo(base, exp):
         baseraise = baseraise * base
         num1 = num1 - 1
 # Print
+    print("base =", base)
+    print("exponent =", exp)
+    print(base, "raise to the power of ", exp, end='')
+    print(':', baseraise)
+
+
+expo(2, 5)
+expo(5, 4)
