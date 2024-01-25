@@ -12,6 +12,9 @@ def expo(base, exp):
     print(base, "raise to the power of ", exp, end='')
     print(':', baseraise)
 
-
+print("Case 1:")
 expo(2, 5)
+print("")
+print("Case 2:")
 expo(5, 4)
+
